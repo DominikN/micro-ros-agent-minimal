@@ -1,0 +1,6 @@
+services:
+
+  microros:
+    build: .
+    command: udp4 --port 8888
+    # command: sleep 3600
